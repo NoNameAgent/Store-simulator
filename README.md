@@ -12,8 +12,8 @@ arg4 = threshold for waiting customers, meaning the amount of customers tolerate
 
 int steps = 100; indicates the number of iterations/steps the simulation will run
 
-O[]  indicates an open register without a customers
-X[]  indicates a closed register
-O[X]>+o   indicates an open register, serving a customer with X amounts of groceries yet to scan
->+o  indicates a normal customer
-%+o  indicates a old/retired customer, which takes twice as long time in the register than a normal customer
+O[]  indicates an open register without a customers.
+X[]  indicates a closed register.
+O[X]>+o   indicates an open register, serving a customer with X amounts of groceries yet to scan.
+>+o  indicates a normal customer.
+%+o  indicates a old/retired customer, which takes twice as long time in the register than a normal customer.
